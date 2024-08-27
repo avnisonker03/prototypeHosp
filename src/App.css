@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.app-background {
+    background-image: url('./assets/doctor.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    width: 100%;
+  }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(29, 26, 26, 0.5);
+  }
